@@ -1,0 +1,23 @@
+site_name: Weather App Docs
+site_description: Documentación oficial de la aplicación de clima en JavaScript.
+site_author: Tu Nombre
+
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: blue
+  features:
+    - navigation.tabs
+
+nav:
+  - Inicio: index.md
+  - Instalación: installation.md
+  - Características: features.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
